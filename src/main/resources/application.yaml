@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: aws-demo
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: "jdbc:postgresql://localhost:5432/base"
+    username: base
+    password: base
+  jpa:
+    properties:
+      dialect: org.hibernate.dialect.PostgreSQL10Dialect
+    hibernate:
+        ddl-auto: create-drop
+
+
+
+
